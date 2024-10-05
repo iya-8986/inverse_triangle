@@ -7,14 +7,13 @@
 def get_height():
     while True:
         try:
-            height = int(input(">>> "))
+            height = int(input("Enter the height of the triangle: "))
         except:
             print("Invalid Input")
             continue
         else:
             return height
 
-print("Enter the height of the triangle: ")
 height = get_height()
 
 
